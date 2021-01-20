@@ -1,0 +1,19 @@
+{
+    "name": "syga/aplication",
+    "description": "experience",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sigita Paulikaite",
+            "email": "syga19@gmail.com"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "^2.8"
+    },
+    "autoload": {
+        "psr-4": { 
+			"Models\\": "src/Employer.php"
+		}
+    }
+}
