@@ -36,7 +36,7 @@ class ComposerStaticInitf524b132160504abbf9a3302c35d8a33
         ),
         'M' => 
         array (
-            'Modals\\' => 7,
+            'Models\\' => 7,
         ),
         'D' => 
         array (
@@ -98,7 +98,7 @@ class ComposerStaticInitf524b132160504abbf9a3302c35d8a33
         array (
             0 => __DIR__ . '/..' . '/composer/package-versions-deprecated/src/PackageVersions',
         ),
-        'Modals\\' => 
+        'Models\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),

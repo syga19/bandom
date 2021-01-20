@@ -21,25 +21,34 @@ class Employer
     private $name;
 
        /**
-     * @ORM\Column(type="string")
-
+     * @ORM\Column(name="experience", type="boolean")
+     
      */
-    private $experience;
+    private $experience = false;
 
-    public function getId()
+    public function getId() : ?int
     {
         return $this->id;
     }
-   
+    
+    public function getName() : ?string 
+    {
+        return $this->name;
+    }
     
     public function setName($name)
     {
         $this->name = $name;
+        return $this;
     }
-    public function setexperience($experience)
+    public function setExperience($experience)
     {
         $this->experience = $experience;
     }
+    // public function __construct() 
+    // {
+    // $this->experience = false;
+    // }
 }
 
 
