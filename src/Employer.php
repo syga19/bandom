@@ -2,6 +2,10 @@
 namespace Models;
 use Doctrine\ORM\Mapping as ORM;
 class Employer
+/**
+ * @ORM\Entity
+ * @ORM\Table(name="Empoyees")
+ */
 {
     /** 
      * @ORM\Id
