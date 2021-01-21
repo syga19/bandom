@@ -1,0 +1,44 @@
+.box {
+    background-color: #fdfbfb;
+    max-width: 55%;
+    margin: 2rem auto;
+    border: 1px solid #BABABA;
+    border-radius: 5px;
+    padding: 1rem;
+    box-shadow: 2px 1px 10px 0px #BABABA;
+    display: flex;
+    
+    .main_form {
+        label {
+            margin-bottom: 5px;
+            margin-top: 5px;
+        }
+        input {
+            max-width: 30%;
+            padding: 5px;
+            margin-right: 5px;
+        }
+        select{
+            width: 150px;
+            height: 2rem;
+            font-size: 14px;
+            option {
+                font-size: 14px;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+        }
+        .bnt {
+            margin-top: 5px;
+            margin-left: 10px;
+            background-color: #9E7CD5;
+            color: #fff;
+            outline: none;
+            padding: 8px;
+            border: none;
+            border-radius: 5px;
+            width: 4rem;
+        }
+    }
+}

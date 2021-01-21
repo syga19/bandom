@@ -1,5 +1,6 @@
 <?php
 require_once "bootstrap.php";
+
 use Models\Employer;
 
 if ($newExperience !== 0 ){
@@ -8,11 +9,14 @@ if ($newExperience !== 0 ){
     $employees = new Employer();
     $employees->setName($newName);
     $employees->setExperience($newExperience);
-    // $person->setExperience(true); // this saves 1 in the table
-    // $person->setExperience(false); // this saves 0 in the table
     $entityManager->persist($employees);
     $entityManager->flush();
     echo "Pavyko";
+} else {
+    $file = 'nepazenge\webdictionary.txt';
+    $current = file_get_contents($file);
+    $current .= ($_POST['name']);
+    file_put_contents($file, $current);
 };
 
 ?>

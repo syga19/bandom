@@ -1,0 +1,66 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #9E7CD5;
+  padding: 1.5rem;
+}
+
+header h1 {
+  color: #fff;
+}
+
+.box {
+  background-color: #fdfbfb;
+  max-width: 55%;
+  margin: 2rem auto;
+  border: 1px solid #BABABA;
+  border-radius: 5px;
+  padding: 1rem;
+  -webkit-box-shadow: 2px 1px 10px 0px #BABABA;
+          box-shadow: 2px 1px 10px 0px #BABABA;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.box .main_form label {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.box .main_form input {
+  max-width: 30%;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.box .main_form select {
+  width: 150px;
+  height: 2rem;
+  font-size: 14px;
+}
+
+.box .main_form select option {
+  font-size: 14px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.box .main_form .bnt {
+  margin-top: 5px;
+  margin-left: 10px;
+  background-color: #9E7CD5;
+  color: #fff;
+  outline: none;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  width: 4rem;
+}
+/*# sourceMappingURL=main.css.map */

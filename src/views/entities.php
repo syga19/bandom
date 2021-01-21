@@ -1,5 +1,6 @@
 <?php
 include_once  "bootstrap.php";
+use Models\Employer;
 if (isset($_POST['create'])) {
 
     $save = new Employer();
@@ -8,6 +9,4 @@ if (isset($_POST['create'])) {
                $entityManager->persist($save);
                $entityManager->flush();
    } 
-
- 
 ?>
