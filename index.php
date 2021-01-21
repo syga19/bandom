@@ -18,7 +18,7 @@
         <option value="0">I don't have experience in php</option>
         <option value="1">I have experience in php</option>
     </select>
-        <input type="submit" value="submit" name="submit">
+        <input type="submit" value="submit" name="create">
     </form>
 
 </body>

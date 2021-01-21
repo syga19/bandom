@@ -2,7 +2,7 @@
 require_once "bootstrap.php";
 use Models\Employer;
 
-if ((isset($_POST["experience"])&&$_POST["experience"]=="1"?1:0)){
+if ($newExperience !== 0 ){
     $newName = $argv[1];
     $newExperience = $argv[2];
     $employees = new Employer();
@@ -14,6 +14,5 @@ if ((isset($_POST["experience"])&&$_POST["experience"]=="1"?1:0)){
     $entityManager->flush();
     echo "Pavyko";
 };
-
 
 ?>
